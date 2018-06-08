@@ -9,7 +9,7 @@ function MAIN_SAVE_DATA() {
                  getData_Alexa_local(),
                  getData_admined_Facebook_page(),
                  "=SUM(SPLIT(\"" + getData_other_Facebook_page() + "\",\"QWERTYUIOPASDFGHJKLZXCVBNM:,\"))", //Sorry I used a long way to get this information. Facebook does not allow to directly get other page's likes counts, but it provides it on country basis. This formula sums them all :)
-                 getData_Instagram(),
+                 /*getData_Instagram()*/,//instagram ended support for public instagram.com/camiakademi/?__a=1 URL, so this method needs a solution :(
                  getData_Twitter(),
                  getData_YouTube(),
                  getData_GooglePlus(),
